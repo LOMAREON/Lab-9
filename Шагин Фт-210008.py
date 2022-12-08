@@ -1,6 +1,6 @@
 import random
 import logging
-logging.basicConfig(level = logging.INFO, filename = "sample.log", format = "%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(level = logging.INFO, filename = "Log.log", format = "%(asctime)s - %(levelname)s - %(message)s")
 while True: #цикл обработки ввода границ диапазона
     try:
         N = int(input("введите натуральное число больше единицы: "))
